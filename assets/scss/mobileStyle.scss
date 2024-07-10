@@ -1,0 +1,161 @@
+@media  (max-width: 559px) {
+   .body__wrapper {
+      max-width: 767px;
+   }
+   .header__container {
+      height: 60px;
+   }
+   .menu__item {
+      border-bottom: 4px groove var(--ligt);
+   }
+   .menu__item:hover {
+      border-bottom: 4px groove #fff;
+   }
+   .menu__link__icon {
+      font-size: 20px;
+      padding: 5px 0;
+   }
+   .menu__link {
+      font-size: 0;
+   }
+   .section__banner,
+   .section__cards,
+   .section__pageBottom {
+      height: 150px;
+   }
+   .read__container {
+      padding: 0 4px;
+   }
+   .read__top{
+      padding: 10px;
+   }
+   .read__subtitle {
+      font-size: 10px;
+   }
+   .read__title {
+      font-size: 14px;
+   }
+   .read__text {
+      font-size: 8px;
+      line-height: 1.2;
+      height: 40%;
+      padding: 4px;
+      border-top: 1px solid rgb(179, 189, 206);
+      border-bottom: 1px solid rgb(179, 189, 206);
+   }
+   .read__button {
+      padding-top: 4px;
+   }
+   .button__link {
+      padding: 4px 0;
+      font-size: 10px;
+   }
+   .section__cards {
+      padding: 0;
+      margin: 5px auto;
+   }
+   .card__photo {
+      height: 31%;
+   }
+   .card__title {
+      font-size: 6px;
+      padding: 5px 2px 0 2px;
+   }
+   .card__stars {
+      font-size: 10px;
+   }
+   .card__text {
+      font-size: 6px;
+      line-height: 1;
+      padding: 0 5px;
+      margin: 0;
+   }
+   .price__current,
+   .price__button {
+      font-size: 6px;
+      height: 15px;
+      margin-top: 0;
+   }
+   .card__price {
+      padding-bottom: 10px;
+      height: 15px;
+   }
+   .price__current,
+   .price__button {
+      padding: 3px 2px;
+   }
+   .price__current{
+      border: 2px solid var(--regular);
+   }
+   .price__button {
+      letter-spacing: 1px;
+      border: 2px solid var(--ligt);
+   }
+   .price__button:hover {
+      border: 2px solid var(--dark);
+      border-bottom: 2px solid var(--ligt);
+   }
+   .section__pageBottom {
+      margin: 10px auto;
+   }
+   .createAccount__title {
+      font-size: 8px;
+      padding: 8px 2px;
+   }
+      .createAccount__text {
+      font-size: 6px;
+      margin: 10px auto;
+   }
+   .form__address,
+   .form__password,
+   .form__confirmPassword {
+      height: 8px;
+      border: 1px solid  rgb(180, 214, 252);
+      font-size: 6px;
+      padding-left: 3px;
+   }
+   .form__address:focus,
+   .form__password:focus,
+   .form__confirmPassword:focus {
+      box-shadow: 2px 2px 2px 2px var(--regular);
+   }
+   .password__container {
+      padding: 5px 0;
+   }
+   .form__password,
+   .form__confirmPassword {
+      width: 40%;
+   }
+   .form__button {
+      height: 16px;
+      margin-bottom: 20px;
+      border: 2px solid var(--ligt);
+      font-size: 6px;
+      padding: 3px;
+   }
+   .form__button:hover {
+      background-color: var(--dark);
+      border: 2px solid var(--dark);
+      border-bottom: 2px solid var(--ligt);  
+   }
+   .footer__container {
+      height: 30px;
+   }
+   .footer__text {
+      font-size: 7px;
+      padding: 3px;
+      padding-top: 10px;
+   }
+   .footer__form {
+      padding:3px;
+   }
+   .footer__button {
+      padding: 3px 15px;
+      font-size: 8px;
+      border: 2px solid var(--regular);
+   }
+   .footer__button:hover {
+      border: 2px solid var(--dark);
+      border-bottom: 2px solid var(--ligt);
+   } 
+}

@@ -1,0 +1,23 @@
+:root {
+   --dark: #0b2b3d;
+   --saturated: rgb(15, 75, 109);
+   --regular:rgb(24, 108, 156);
+   --ligt:rgb(25, 131, 192);
+   --yellow:  #ffff0f;
+}
+ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+a {
+   text-decoration: none;
+}
+.body__wrapper {
+   max-width: 1768px;
+   margin: 0 auto;
+   background: linear-gradient(45deg, var(--dark), var(--ligt));
+   height: fit-content;
+   box-sizing:  border-box;
+   padding: 20px;
+}
